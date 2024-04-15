@@ -128,7 +128,7 @@ Step 10: Launch Windows PowerShell ISE as an administrator and open a new script
 <img src="https://imgur.com/Ykm6lxx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://imgur.com/rlYBflg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Paste the script (insert URL here) into PowerShell ISE and run it using the play button or F5. This script creates 10,000 users, placing them in the "_EMPLOYEES" OU. You can adjust the number of users created on line 3 and change their destination on line 43.
+Paste the script [https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1] into PowerShell ISE and run it using the play button or F5. This script creates 10,000 users, placing them in the "_EMPLOYEES" OU. You can adjust the number of users created on line 3 and change their destination on line 43.
 
 </p>
 <br />
