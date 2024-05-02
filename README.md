@@ -85,7 +85,7 @@ Step 5: After the Domain Controller restarts, in Server Manager, go to "Tools" >
 </p>
 <br />
 <p>
-<img src="https://i.imgur.com/jdGLTdJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://imgur.com/EiJ4n2d.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://imgur.com/FK6Gij2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/jdGLTdJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://imgur.com/EiJ4n2d.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://i.imgur.com/Q2IsOs0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Step 6: Right-click the "_Admins" OU to add a new user. Then, access Properties for the created user. Under the "Members of" tab, add the user to "Domain Admins". Logout of the Domain Controller and try logging back in with the new user.
@@ -93,7 +93,7 @@ Step 6: Right-click the "_Admins" OU to add a new user. Then, access Properties 
 </p>
 <br />
 <p>
-<img src="https://imgur.com/U7oPfTl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://imgur.com/QAAUpxX.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://imgur.com/GgP6ffD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://imgur.com/XXtl8f3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/U7oPfTl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://i.imgur.com/w3hccY0.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://i.imgur.com/JbyIGrS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://imgur.com/XXtl8f3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Step 7: To add Client 1 to the Domain, return to its page in Azure. Access Client 1's Network Settings to reach the NIC. In the NIC settings, navigate to DNS servers and change the Domain Controller's Private IP Address. Restart Client-1.
@@ -125,7 +125,7 @@ Step 10: Launch Windows PowerShell ISE as an administrator and open a new script
 </p>
 <br />
 <p>
-<img src="https://imgur.com/Ykm6lxx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://imgur.com/rlYBflg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/d33egTq.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://imgur.com/rlYBflg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Paste the script [https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1] into PowerShell ISE and run it using the play button or F5. This script creates 10,000 users, placing them in the "_EMPLOYEES" OU. You can adjust the number of users created on line 3 and change their destination on line 43.
@@ -133,7 +133,7 @@ Paste the script [https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Nam
 </p>
 <br />
 <p>
-<img src="https://imgur.com/fBOA8Vf.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://imgur.com/jq0gHnz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://imgur.com/g9gvBbO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/sQRjRyv.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://imgur.com/jq0gHnz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://imgur.com/g9gvBbO.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Once the code has been executed, the users should be visible in Active Directory.
@@ -150,5 +150,5 @@ Now, any of those users will have access to the Client-1 VM.
 </p>
 <br />
 <p>
-<img src="https://imgur.com/YWS64T9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://imgur.com/V7dilTT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Jo9yJsc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://i.imgur.com/aN5ShPb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
