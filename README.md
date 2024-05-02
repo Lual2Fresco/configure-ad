@@ -28,7 +28,7 @@ Step 1: In Azure, create two Virtual Machines (VMs) - one running Windows Server
 <br />
 
 <p>
-<img src="https://imgur.com/A1EdKrZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://imgur.com/PYTcbpc.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/NkEkkQi.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://i.imgur.com/vl0nWGZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Step 2: In Azure, access the Domain Controller's Network settings, then navigate to the NIC configuration. Change the Private IP address settings from Dynamic to static by selecting "ipconfig1" under IP configurations.
@@ -36,7 +36,7 @@ Step 2: In Azure, access the Domain Controller's Network settings, then navigate
 <br />
 
 <p>
-<img src="https://imgur.com/qHI9VXW.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://imgur.com/Tn4kyhl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://imgur.com/6iYfvI4.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/FGtFZ3q.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://imgur.com/Tn4kyhl.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://i.imgur.com/FFugH91.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 We need to ensure both VMs can connect to each other. To test this, log in to Windows 10 (referred to as Client-1). The connection should fail.
@@ -44,7 +44,7 @@ We need to ensure both VMs can connect to each other. To test this, log in to Wi
 </p>
 <br />
 <p>
-<img src="https://imgur.com/mz9zqst.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://imgur.com/qzT0K3I.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://imgur.com/IMD4S5h.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/mz9zqst.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://i.imgur.com/PSQEIPT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://i.imgur.com/NGIKMae.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Step 3: Upon logging into the Domain Controller's VM, Server Manager opens automatically. Access Windows Defender Firewall with Advanced Security and sort Inbound Rules by Protocol.
@@ -60,7 +60,7 @@ Enable the ICMPv4 rules shown in the image below. Try pinging the Domain Control
 </p>
 <br />
 <p>
-<img src="https://imgur.com/MWQmFD3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://imgur.com/BSEkjj7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/pczGtFb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://imgur.com/BSEkjj7.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Step 4: In Server Manager, select "Add Roles and Features" to initiate the installation of Active Directory Domain Services (AD DS).
@@ -68,7 +68,7 @@ Step 4: In Server Manager, select "Add Roles and Features" to initiate the insta
 </p>
 <br />
 <p>
-<img src="https://imgur.com/15w1fdx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://imgur.com/r9hKuFm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/mo0oUGx.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://imgur.com/r9hKuFm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Once installed, ensure the flag at the top right appears as shown in the images. Proceed to promote the server to a Domain Controller. During setup, choose to set up as a new forest and name your domain. The VM should restart automatically. Upon logging back in, use the username format (domainname)\(username) or (username)@(domainname).
@@ -76,7 +76,7 @@ Once installed, ensure the flag at the top right appears as shown in the images.
 </p>
 <br />
 <p>
-<img src="https://imgur.com/zXmUt30.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://imgur.com/5DykGCb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://imgur.com/Z4zvx0e.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/zXmUt30.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://imgur.com/5DykGCb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://i.imgur.com/0jVYvdZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -85,7 +85,7 @@ Step 5: After the Domain Controller restarts, in Server Manager, go to "Tools" >
 </p>
 <br />
 <p>
-<img src="https://imgur.com/Ury7ffd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://imgur.com/EiJ4n2d.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://imgur.com/FK6Gij2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/jdGLTdJ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://imgur.com/EiJ4n2d.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://imgur.com/FK6Gij2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Step 6: Right-click the "_Admins" OU to add a new user. Then, access Properties for the created user. Under the "Members of" tab, add the user to "Domain Admins". Logout of the Domain Controller and try logging back in with the new user.
