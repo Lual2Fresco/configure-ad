@@ -76,7 +76,7 @@ Once installed, ensure the flag at the top right appears as shown in the images.
 </p>
 <br />
 <p>
-<img src="https://imgur.com/zXmUt30.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://imgur.com/5DykGCb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://i.imgur.com/0jVYvdZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/zXmUt30.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://i.imgur.com/JI9mfvm.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://i.imgur.com/0jVYvdZ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 
@@ -117,7 +117,7 @@ Step 9: Login to Client-1 as the Domain Controller Admin. Navigate to System Set
 </p>
 <br />
 <p>
-<img src="https://imgur.com/ShRpWV9.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://imgur.com/M52wiuD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DEHZ8UR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/> <img src="https://imgur.com/M52wiuD.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Step 10: Launch Windows PowerShell ISE as an administrator and open a new script.
